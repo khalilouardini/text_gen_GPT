@@ -1,7 +1,7 @@
 # GPT2-Contract-Generation
-Finetuning GPT2 on contract generation. We use the "Securities and Exchange Commission" (SEC) EDGAR database. EDGAR contains regulatory filings from publicly-traded US corporations including their annual and quarterly reports. it's essentially a huge database of english legal documents. We provide few samples of the dataset in ```data/all_clauses.pkl``` that we use to finetune OpenAI GPT2 model pretrained on the WebText dataset. We build on the pytorch implementation of the model via their library pytorch-transformers.
+Finetuning OpenAI GPT and GPT2 on contract generation. We provide few samples (clauses extracted from contracts in english) in ```data/all_clauses.pkl``` that we use to finetune OpenAI GPT model pretrained on the WebText dataset. We build on the pytorch implementation of the model via the library pytorch-transformers.
 ```
-git clone https://github.com/hyperlex/GPT2-Contract-Generation/
+git clone https://github.com/khalilouardini/text_gen_GPT/
 ```
 
 # Finetuning
@@ -33,8 +33,3 @@ Options:
 ```
 bash generate_gpt.sh
 ```
-
-# EDGAR
-
-
-# REFERENCES
