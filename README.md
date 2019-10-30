@@ -1,7 +1,13 @@
 # Contract Generation
 Finetuning OpenAI GPT and GPT2 on contract generation. We provide few samples (clauses extracted from contracts in english) in ```data/all_clauses.pkl``` that we use to finetune OpenAI GPT model pretrained on the WebText dataset. We build on the pytorch implementation of the model via the library pytorch-transformers.
+
 ```
 git clone https://github.com/khalilouardini/text_gen_GPT/
+```
+
+# Install requirements
+```
+pip install -r requirements.txt
 ```
 
 # Finetuning
