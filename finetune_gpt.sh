@@ -1,0 +1,12 @@
+python3 finetune_gpt_lm.py --do_train \
+                           --do_eval \
+                           --do_save \
+                           --output_dir='logs' \
+                           --train_dataset='data/all_clauses.pkl' \
+                           --eval_dataset='data/all_clauses.pkl' \
+                           --num_train_epochs=3 \
+                           --train_batch_size=1 \
+                           --eval_batch_size=1 \
+                           --learning_rate=6.25e-5 \
+                           --teacher_forcing=True\
+                           --run_parallel \

@@ -1,0 +1,11 @@
+pytorch_transformers==1.0.0
+torch
+datetime
+argparse
+tqdm
+numpy
+torch
+sklearn
+regex
+nltk
+unidecode
